@@ -4,6 +4,12 @@
 }
 body {
     background-color: #7d0093;
+    background-image: url(img/Fotos/s.png);
+}
+
+h2 {
+    color: #FFC600;
+    
 }
 
 nav ul{
@@ -15,3 +21,30 @@ nav ul{
     background-color: black;
     list-style-type: none;
 }
+
+#login {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content:space-around; 
+    flex-direction: column;
+    padding: 50px;
+}
+
+#cadastro {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content:space-around; 
+    flex-direction: column;
+    padding: 65px;
+}
+
+#rodape {
+    color: #ffffff;
+    background-color: black; 
+    display: flex;
+    align-items: center;
+    justify-content:space-around; 
+ }
+ 

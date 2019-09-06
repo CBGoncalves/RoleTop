@@ -5,6 +5,17 @@
 
 body {
     background-color: #7d0093;
+    font-family: 'Caibri', 'Open Sans', sans-serif;
+}
+
+h2 {
+    color: #FFC600;
+}
+
+nav a:hover {
+    background-color: #a70000;
+    color: #fff;
+    box-shadow: 0 2px #800000;
 }
 
 nav ul{
@@ -25,8 +36,7 @@ nav ul{
     display: flex;
     align-items: center;
     color: #ffffff;
-    padding: 0px;
-    margin: 0px;
+
 }
 
 #quem-somos {
@@ -40,7 +50,8 @@ nav ul{
 #agenda {
  
     color: #ffffff;
-    
+    padding: 80px;
+    margin: 80px;
 }
 
 #agenda div {
@@ -67,20 +78,27 @@ nav ul{
 
 #orcamento {
     color: #ffffff;
-    background-image: url(img/Fotos/s.png);
+    background-image: url(img/Efeitos/salao-de-festas-cdl-campos-1.png);
     
-
-   
 }
 
-#orcamento p {
+#orcamento div {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content:space-around; 
     flex-direction: column;
-    
-    margin: 200px;
+    margin: 60px;
 }
+
+#orcamento h2 {
+    display: flex;
+    align-items: center;
+    justify-content:space-around; 
+    flex-direction: column;
+    padding: 10px;
+}
+
+
 
 
 
@@ -88,7 +106,22 @@ nav ul{
     color: #ffffff;
     margin: 1%;
     padding: 10%;
+    
 }
+
+#rodape {
+   color: #ffffff;
+   background-color: black; 
+   display: flex;
+   align-items: center;
+   justify-content:space-around; 
+}
+
+
+
+
+
+
 
 
 

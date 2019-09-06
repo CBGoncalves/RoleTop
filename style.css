@@ -19,10 +19,7 @@ nav ul{
     height: 100%;
 }
 
-nav ul div {
 
-
-}
 
 #nossos-servicos {
     display: flex;
@@ -85,9 +82,17 @@ nav ul div {
     margin: 200px;
 }
 
-#orcamento h2 {
-    
+
+
+#perguntas-frequentes {
+    color: #ffffff;
+    margin: 1%;
+    padding: 10%;
 }
+
+
+
+
 
 
 

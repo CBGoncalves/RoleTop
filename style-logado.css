@@ -16,7 +16,6 @@ h2 {
                         INICIO - NAV
 **************************************************************/
 
-
 nav ul{
     position: fixed;
     display: flex;
@@ -65,7 +64,6 @@ nav ul > li > a {
     justify-content: flex-start;
     flex-direction: row-reverse;
     color: #ffffff;
-
 }
 
 /*************************************************************
@@ -75,9 +73,9 @@ nav ul > li > a {
 
 #agenda {
     margin: 10%;
-    padding: 10px; 
-}
+    padding: 10px;
 
+}
 
 
 .mes {
@@ -170,7 +168,7 @@ nav ul > li > a {
 #orcamento {
     color: #ffffff;
     background-image: url(img/Efeitos/salao-de-festas-cdl-campos-1.png);
-
+    
 }
 
 #orcamento div {
@@ -189,7 +187,27 @@ nav ul > li > a {
     padding: 10px;
 }
 
+#feedback {
+    color: #ffffff;
+    list-style-type: none;
+    margin: 10%;
+    padding: 10%;
+    
+}
 
+#feedback div {
+    align-items: center;
+    display: flex;
+}
+
+#feedback form {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin: -100px;
+    width: 100%;
+    
+}
 
 
 
@@ -197,9 +215,7 @@ nav ul > li > a {
     background-image: url(img/Fotos/Feed.jpg);
     background-size: 95%;
     color: #ffffff;
-    margin: 0%;
-    padding: 10%;
-    
+    padding: 15%;
 }
 
 footer {
@@ -211,6 +227,10 @@ footer p {
     margin: 1%;
 }
 
+
+/*************************************************************
+                        INICIO - MOBILE
+**************************************************************/
 
 @media (max-width: 1200px) {
     #logo-area {
@@ -238,7 +258,7 @@ footer p {
     }
 }
 
-@media (max-width: 1164px) {
+@media (max-width: 745px) {
     #nossos-servicos > img {
         width: 70%;
         
@@ -247,9 +267,8 @@ footer p {
     #nossos-servicos {
         font-size: 0.5em;
     }
-}
 
-@media (max-width: 745px) {
+
     #quem-somos > img {
         width: 70%;
     }
@@ -257,15 +276,19 @@ footer p {
     #quem-somos {
         font-size: 0.5em;
     }
-}
 
-@media (max-width: 635px) {
+    #feedback form {
+        margin: 0%;
+        padding: 0%;
+        align-items: center;
+    }
+
     h2 {
         font-size: 1.0em;
     }
 
     label {
-        font-size: 0.5em;
+        font-size: 0.8em;
     }
 
     #agenda { 
@@ -288,8 +311,15 @@ footer p {
 
     #perguntas-frequentes {
         background-size: 100%; 
+        margin: 0%;
+        padding: 10%;
     }
 }
+
+/*************************************************************
+                        FIM - MOBILE
+**************************************************************/
+
 
 
 

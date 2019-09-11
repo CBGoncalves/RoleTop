@@ -4,7 +4,8 @@
 }
 body {
     background-color: #7d0093;
-    background-image: url(img/Fotos/s.png);
+    background-image: url(img/Fotos/s2.png);
+    font-family: 'Caibri', 'Open Sans', sans-serif;
 }
 
 h2 {
@@ -12,15 +13,38 @@ h2 {
     
 }
 
-nav ul{
+/*************************************************************
+                        INICIO - NAV
+**************************************************************/
 
+
+nav ul{
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content:space-around; 
     color: #ffffff;
     background-color: black;
     list-style-type: none;
+    width: 100%;
+    font-size: 1.3em;
 }
+
+nav #bt-mobile-menu {
+    display: none;
+}
+
+
+
+nav ul > li > a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*************************************************************
+                        FIM - NAV
+**************************************************************/
+
 
 #login {
     color: #ffffff;
@@ -40,11 +64,33 @@ nav ul{
     padding: 65px;
 }
 
-#rodape {
+footer {
     color: #ffffff;
-    background-color: black; 
-    display: flex;
-    align-items: center;
-    justify-content:space-around; 
- }
- 
+    background-color: black;
+}
+
+footer p {
+    margin: 1%;
+}
+
+@media (max-width: 1000px) {
+   
+
+    nav #bt-mobile-menu {
+        display: block;
+    }
+
+    nav .bt-common-menu {
+        display: none;
+    }
+
+    nav .bt-common-menu.active {
+        display: block;
+    }
+
+    nav ul.mobile-mode {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
